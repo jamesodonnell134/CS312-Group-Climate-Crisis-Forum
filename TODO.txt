@@ -1,0 +1,11 @@
+==========================================================================
+CS312: Web App Development	Group Exercise		TO-DO
+==========================================================================
+
+Date created: Thu 14th November 2019
+
+Add on to this list things that we should implement and/or fix!
+
+Project completed 03/12/2019
+
+============================================================================

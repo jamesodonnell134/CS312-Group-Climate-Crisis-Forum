@@ -1,0 +1,520 @@
+/*
+CSS Style Sheet for CS312 Group Assignment
+
+Group X 2019
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'Open Sans';
+}
+
+
+body{
+    background-image: url("images/sky.jpg");
+
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+/* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+    .topnav .login-container {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .topnav a {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    input[type=text] {
+        border: 2px solid black;
+        padding: 4px;
+        border-radius: 4px;
+        width: 20px;
+        margin-top: 3px;
+        margin-left: 10px;
+        float: left;
+        font-family: 'Open Sans';
+    }
+
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #414b9b;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin:0px;
+}
+.topnav a:link {
+    color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans';
+}
+.content a:link{
+    color: black;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #1b1f7c;
+    color: white;
+}
+
+.topnav .login-container {
+    float: right;
+    border-left: solid white;
+    background-color: #414b9b;
+}
+
+.tabNav{
+    background-color: red;
+    color: black;
+    padding: 5px 5px;
+    font-family: 'Open Sans';
+    border: solid black 1px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    float: left;
+    text-decoration: none;
+
+}
+
+.tabNav:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+
+
+h1{
+
+    font-family: 'Open Sans';
+    font-size: 40px;
+    margin-top:2px;
+    margin-bottom:10px;
+
+}
+
+
+
+hr{
+    color: black;
+    border: 1px dotted black;
+}
+
+h2{
+    font-family: 'Open Sans';
+    margin-top:20px;
+    margin-bottom:2px;
+    border-bottom: 1px dashed white;
+}
+h3{
+    font-family: 'Open Sans';
+
+}
+
+h4{
+    font-family: 'Open Sans';
+}
+
+div.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+div.loginpane {
+    width: 230px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 15px;
+
+}
+
+div.forumdesc {
+    width: 75%;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 15px;
+}
+
+div.content {
+    /*background-color: #ffc2c7;*/
+    background-color: white;
+    opacity: 0.9;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+    border: 1px solid #1b1f7c;
+
+}
+
+div.content2 {
+    background-color: white;
+    opacity: 0.85;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+    border: 1px solid #1b1f7c;
+
+}
+div.content3 {
+    background-color: white;
+    opacity: 0.85;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    padding: 10px;
+    border: 1px solid #1b1f7c;
+
+}
+
+div.logincont {
+    background-color: white;
+    opacity: 0.85;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 500px;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 10px;
+    border: 1px solid #1b1f7c;
+
+}
+
+table.reply-table {
+    background-color: white;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #1b1f7c;
+
+}
+
+div.wrapper {
+    width: 90%;
+    max-width: 1000px;}
+
+div.header h1 {
+    margin-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+a {
+  color: black;
+
+}
+
+
+
+p{
+    font-family: 'Open Sans';
+}
+
+
+
+input[type="submit"], button {
+    border-radius: 4px;
+    color: steelblue;
+    background-color: white;
+    width: 200px;
+    padding: 7px;
+    font-family: 'Open Sans';
+    margin-top: 15px;
+}
+
+
+input[type="submit"]:focus {
+    outline-width: 0;
+    outline-style: none;
+}
+
+button:focus {
+    outline-width: 0;
+    outline-style: none;
+}
+
+table.category-table {
+    width: 100%;
+    margin-bottom: 35px;
+    font-family: Calibri;
+
+}
+
+table.category-table td.parent-category {
+    font-size: 16pt;
+    font-weight: bold;
+
+}
+
+table.category-table th {
+    font-size: 12pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.topic-table {
+    width: 80%;
+    max-width: 800px;
+    font-family: 'Open Sans';
+
+}
+
+table.topic-table th {
+    vertical-align: top;
+    text-align: left;
+    font-size: 10pt;
+    color: white;
+    background-color: #414b9b;
+    padding: 4px;
+}
+
+table.topic-table td {
+    font-size: 12pt;
+    padding: 4px;
+}
+
+input#topic  {
+    min-width: 250px;
+    max-width: 300px;
+    width: 40%;
+    padding: 7px;
+    font-family: 'Open Sans';
+    border: 1px solid black;
+    background-color: white;
+}
+
+
+input[type="text"]:focus {
+    outline-width: 0;
+    outline-style: none;
+}
+
+
+input[type="submit"]:focus {
+    outline-width: 0;
+    outline-style: none;
+}
+
+
+input[type=text] {
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 4px;
+    width: 300px;
+    margin-top: 3px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Open Sans';
+}
+
+input[type=email] {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    width: 300px;
+    margin-top: 3px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Open Sans';
+}
+
+input[type=file]{
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+input[type=password] {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 3px;
+    float: left;
+    font-family: 'Open Sans';
+}
+
+
+input[type=submit] {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 12px 20px;
+    border: solid black 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+input[type=submit]:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 180px;
+    text-align: left;
+    margin-top: 5px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button{
+
+    background-color: #f1f1f1;
+    color: black;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+
+textarea {
+    width: 50%;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    max-width: 600px;
+    min-width: 200px;
+    border-radius: 1px;
+    border: 1px solid black;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.fixme{
+    color: yellow;
+    background-color: red;
+}
+
+
+footer {
+    position: fixed;
+    bottom:0;
+    padding: 5px;
+    height: 2.5rem;
+    width: 100%;
+    font-family: 'Open Sans';
+    color: white;
+    text-align: center;
+    background-color: #414b9b;
+    bottom: 0;
+}
+
+li{
+    font-family: 'Open Sans';
+
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    left:0px;
+}
+
+.mySlides {
+    display: none;
+}
+
+th.la{
+    text-align: left;
+    color: black;
+    border-bottom: 1px dotted maroon;
+}
+
+td.ma{
+    padding-left: 5px;
+    border-bottom: 1px dotted maroon;
+}
+
+table#myacc{
+    border-collapse: collapse;
+}
