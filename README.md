@@ -6,8 +6,6 @@ Written in: PHP, MySQL, JavaScript, HTML and CSS.
 
 Some screenshots:
 
-![image](https://user-images.githubusercontent.com/45042660/84295752-e5370180-ab42-11ea-8258-84aadec3802a.png)
-
 ![image](https://user-images.githubusercontent.com/45042660/84295596-af921880-ab42-11ea-9f10-11816e5e8f65.png)
 
 ![image](https://user-images.githubusercontent.com/45042660/84295817-fe3fb280-ab42-11ea-9517-652bc213c5df.png)
